@@ -1,0 +1,499 @@
+body, h1,h2,h3,h4,h5,h6{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.sp{
+    padding: 70px 0;
+}
+img{
+    width: 100%;
+}
+/* header css */
+.header{
+    background-color: #ffffff;
+}
+.header h3{
+    font-weight: 800;
+}
+.menu {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a {
+        text-decoration: none;
+        color:  #010d4c;
+        font-size: 17px;
+        text-transform: capitalize;
+        font-weight: 500;
+        padding: 24px 20px;
+        position: relative;
+        transition: .5s;
+}
+.menu li a::after {
+    content: "";
+    position: absolute;
+    top: 70%;
+    left: 18px;
+    width: 0;
+    height: 2px;
+    background-color: #913bff;
+    transition: .5s;
+}
+.menu li a:hover::after{
+    width: 66%;
+}
+.menu li a:hover{
+    color: #913bff;
+    
+}
+.header p {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn{
+    background-color: #0066ff;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn:hover{
+    color: #ffffff;
+    background-color: #0043a8;
+}
+/* banner start */
+.banner{
+    background: url("./images/pexels-hasan-albari-1229861.jpg") center center;
+    padding: 200px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #ffffff;
+}
+.banner h1{
+        text-transform: capitalize;
+        font-size: 60px;
+        font-weight: 400;
+        margin-bottom: 20px;
+}
+.banner p{
+        margin-bottom: 29px;
+        font-weight: 500;
+        font-size: 18px;
+}
+/* banner end */
+/* digit start */
+.digit h1{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.digit p{
+    font-weight: 400;
+}
+/* digit end */
+/* product start */
+.product{
+    background-color: #cac2c2;
+}
+.product h6{
+    color: #1111116b;
+    font-size: 18px;
+}
+.box{
+    
+    background-color: #fff;
+    border-radius: 10px 10px 5px 5px;
+    overflow: hidden;
+    transition: .5s;
+}
+.box:hover{
+    transform: translateY(-8px);
+}
+.box-image{
+    position: relative;
+    overflow: hidden;
+}
+.box-image img{
+    object-fit: cover;
+    height: 253px;
+}
+.box-text{
+  padding: 25px 0;
+   transform: .5s;
+}
+.box-text a{
+    color: #111;
+    text-decoration: none;
+}
+.box-text:hover  h6{
+    color: #8e44ad;
+}
+.box-text p {
+    color: #8e44ad;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+.box-text h6 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.round {
+    color: #fff;
+    background-color: #8e44ad;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 75%;
+    right: -30px;
+    line-height: 76px;
+    overflow: hidden;
+    transition: .8s;
+    transform: scale(0);
+    transform-origin: bottom right;
+}
+.box:hover .round{
+    transform: scale(1);
+}
+.box:hover{
+
+}
+.round span{
+    display: inline-block;
+    font-size: 20px;
+}
+.round span{}
+/* product end */
+/* features start */
+.features-item{
+    box-shadow: 0 0 20px 5px  #ddd;
+    padding: 40px 30px;
+    transition: .5s;
+    box-sizing: border-box;
+    overflow: hidden;
+} 
+.features-item:hover{
+    transform: translateY(-10px);
+}
+.features-text h3{
+    font-weight: 400;
+}
+.features-text span{
+    font-weight: 700;
+}
+.features-text p{
+        font-size: 17px;
+        font-weight: 400; 
+}
+
+.features-item span{
+    color: #8e44ad;
+    font-size: 30px;
+} 
+    .features-item h4 {
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 10px;
+    } 
+    .features-item p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .features:nth-child(3){
+        padding: 30px;
+    }
+/* features end */
+/* portfolio start */
+.portfilio{}
+.portfolio-text{
+  padding-top: 50px;
+}
+.portfolio-text h5{
+    color:#585151;
+}
+.portfolio-text h2{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
+}
+.portfolio-text p {
+    color: #585151;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* portfolio end */
+/* item css start */
+.item{
+    background-color: #cac2c2;
+}
+.item .features-text p{
+
+}
+/* item css end */
+/* pericing css start */
+.pricing{
+    background: url("./images/background6.jpg");
+    padding: 100px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pricing-items{
+    box-shadow: 0 0 20px 5px #ddd;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+.pricing-items p{
+    color: #cfc7c7;
+    font-weight: 500;
+}
+.pricing-items h1{
+    margin-bottom: 25px;
+}
+.pricing-items sup{
+        font-size: 16px;
+        font-weight: 800;
+        position: relative;
+        top: -22px;
+        left: 0;
+
+}
+.pricing-items ul{
+    list-style: none;
+}
+.pricing-items ul li {
+    line-height: 43px;
+    font-size: 18px;
+}
+.pricing-items .btn{
+    border: 1px solid #0066ff;
+    padding: 8px 93px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #0066ff;
+    border-radius: 30px;
+    transition: .5s;
+}
+.pricing-items .btn:hover{
+    color: #fff;
+    background-color: #0066ff;
+}
+.pricing-items1{
+    box-shadow: 0 0 20px 5px #ddd;
+    padding: 30px 10px;
+    border-radius: 10px;
+    background-color: #0066ff;
+    color: #fff;
+}
+.pricing-items1 p{
+    font-weight: 500;
+}
+.pricing-items1 sup{
+        font-size: 16px;
+        font-weight: 800;
+        position: relative;
+        top: -22px;
+        left: 0;
+
+}
+.pricing-items1 ul{
+    list-style: none;
+}
+.pricing-items1 ul li {
+    line-height: 43px;
+    font-size: 18px;
+}
+.pricing-items1 .btn{
+    border: 1px solid #0066ff;
+    padding: 8px 93px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #0066ff;
+    border-radius: 30px;
+    transition: .5s;
+}
+.pricing-items1 .btn:hover{
+    background-color: #0043a8;
+    color: #fff;
+}
+.pricing-items1 h1{
+    margin-bottom: 25px;
+}
+/* pericing css end */
+/* team css start */
+.team p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #b8acac;
+}
+.team-body{
+    background: url("./images/background2.jpg");
+    padding: 144px 29px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.team-text{
+    background-color: #111 ;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.team-text span{
+    font-size: 50px;
+}
+.team-text p{
+    font-size: 20px;
+    color: #dbd4d4;
+}
+.team-bio bold{
+   color: #585151;
+   font-weight: 400;
+}
+.team-bio h6{}
+.team-bio p{}
+/* team css end */
+/* join css start */
+.join{
+    background: url("./images/background4.jpg");
+    padding: 84px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.join-body{
+    background-color: #111;
+    color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+.join-body .join-text h3{}
+.join-body .join-text p {
+    font-size: 17px;
+    color: #ddd;
+}
+.join-body .btn {
+    background-color: #fff;
+    color: #585151;
+    padding: 11px 20px;
+    margin-top: 24px;
+    position: relative;
+    z-index: 1;
+}
+.join-body .btn::after{
+        content: "";
+        position: absolute;
+        top: 6px;
+        left: 42px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: #edf1eee0;
+        animation: playbtn 1s ease-out infinite;
+        visibility: hidden;
+        z-index:1;
+}
+    @keyframes playbtn{
+        0%{
+            transform: scale(.5);
+            opacity: 0;
+        }
+        50%{
+            transform: scale(1);
+            opacity: .7;
+        }
+        80%{
+            transform: scale(1.5);
+            opacity: .7;
+        }
+        100%{
+            transform: scale(2);
+            opacity: 0;
+        }
+    }
+    .join-body .btn:hover::after{
+       visibility: visible;
+    }
+    .join-body .btn:hover{
+        background-color: #ddd;
+    }
+/* join css end */
+/* subscribe start */
+.subscribe{
+   
+}
+form {
+    box-shadow: 0 0 20px 1px #ddd;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+.button1 {
+    background-color: #0066ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 327px;
+    margin-bottom: -41px;
+    border-radius: 10px;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    top: -23px;
+    left: 0;
+}
+.button1::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 42px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #edf1eee0;
+    animation: playbtn 1s ease-out infinite;
+    visibility: hidden;
+}
+@keyframes playbtn{
+    0%{
+        transform: scale(.5);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(1);
+        opacity: .7;
+    }
+    80%{
+        transform: scale(1.5);
+        opacity: .7;
+    }
+    100%{
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+.button1:hover::after{
+   visibility: visible;
+}
+.button1:hover{
+    color: #fff;
+    background-color: #0043a8;
+}
+.subscribe-left p{
+    font-size: 23px;
+}
+/* subscribe end */
+/* footer start */
+.footer p {
+    font-size: 18px;
+    font-weight: 400;
+}
+/* footer end */
